@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parte 2 - Exercicio 12 - Exclusão de cadastro do aluno</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Parte 2 - Exercicio 12 - Exclusão de cadastro do aluno</h1>
+
+    <form action="excluir_aluno.php" method="post">
+        <label for="criterio">Excluir por:</label>
+        <select id="criterio" name="criterio">
+            <option value="nome">Nome</option>
+            <option value="matricula">Matrícula</option>
+            <option value="email">E-mail</option>
+        </select><br><br>
+
+        <label for="valor">Valor:</label>
+        <input type="text" id="valor" name="valor" required><br><br>
+
+        <button type="submit">Excluir</button>
+    </form>
+    <a href="index.html"><button type="button">Voltar</button></a>
+</body>
+</html>

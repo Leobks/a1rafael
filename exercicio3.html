@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 3 - Cálculo do fatorial de um número: RECURSIVO</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>Exercício 3 <p></p> Cálculo do fatorial de um número: RECURSIVO</h2>
+    <p> 3- Cálculo do fatorial de um número: RECURSIVO:</p>
+    <p> Enunciado: Desenvolva um algoritmo em PHP que receba um número inteiro via formulário HTML e calcule o fatorial 
+        desse número. O resultado deve ser exibido na tela, inclusive os números que contemplam o fatorial. .
+     <p>-------------------------------------</p>
+     <p>Passos a seguir:</p>
+     <p>Crie um formulário HTML que receba o número do usuário e envie via POST.</p>
+     <p>Lembre-se: form action="Exercicio1.php" method="post" </p>
+     <p>O PHP deve calcular o fatorial e apresentar o resultado na mesma página ou redirecionar para uma nova.</p>
+     <p>--------------------------------------</p>
+
+     <form action="exercicio3.php" method="post">
+        <label for="fatorial"> Digite um numero para ver seu fatorial:</label>
+        <input type="number" name="fatorial" id="fatorial" required>
+        <button type="submit">Ver Fatorial</button>
+    </form>
+    <a href="index.html"><button type="button">Voltar</button></a>
+</body>
+</html>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 11 -   Cadastro de Alunos e Carga Horária para Atividades Complementares.</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>Exercício 11 <p></p> Cadastro de Alunos e Carga Horária para Atividades Complementares.</h2>
+    <p> 11 - Cadastro de Alunos e Carga Horária para Atividades Complementares. </p>
+    <p>O objetivo desta tarefa é desenvolver um sistema simples de cadastro de alunos utilizando HTML e PHP, com a 
+        capacidade de registrar e gerenciar informações relacionadas a atividades complementares. O sistema deve permitir 
+        o cadastro de dados dos alunos em um banco de dados MySQL, bem como a inserção e atualização da carga horária 
+        referente às atividades complementares. Os alunos deverão ser identificados por meio de sua matrícula, e a carga 
+        horária poderá ser atualizada conforme forem realizadas mais atividades. .
+     <p>-------------------------------------</p>
+      
+     <form action="cadastro11.php" method="post">
+                
+        <label for="nome"> Insira seu nome:</label>
+        <input type="text" id="nome" name="nome"  required><br><br>
+
+        <label for="matricula"> Insira sua matricula:</label>
+        <input type="number" id="matricula" name="matricula"  required><br><br>
+
+        <label for="curso"> Insira seu curso:</label>
+        <input type="text" id="curso" name="curso"  required><br><br>
+
+        <label for="email"> Insira seu email Institucional:</label>
+        <input type="text" id="email" name="email"  required><br><br>
+
+        <label for="telefone"> Insira seu telefone:</label>
+        <input type="number" id="telefone" name="telefone"  required><br><br>
+
+        <label for="endereco"> Insira seu endereço:</label>
+        <input type="text" id="endereco" name="endereco"  required><br><br>
+
+        <label for="cep"> Insira o cep de seu endereço:</label>
+        <input type="text" id="cep" name="cep"  required><br><br>
+
+        <label for="cidade"> Insira a cidade de seu endereço:</label>
+        <input type="text" id="cidade" name="cidade"  required><br><br>
+
+        <label for="uf"> Insira a UF do seu endereço:</label>
+        <input type="text" id="uf" name="uf"  required><br><br>
+
+        <label for="hc"> Insira o nome do curso que validará as horas complementares:</label>
+        <input type="text" id="hc" name="hc"  required><br><br>
+
+        <label for="ch"> Insira quantas horas complementares serão validadas:</label>
+        <input type="text" id="ch" name="ch"  required><br><br>
+
+    
+        <button type="submit">Verificar</button><br><br>
+    </form>
+    <a href="index.html"><button type="button">Voltar</button></a>
+</body>
+</html>
